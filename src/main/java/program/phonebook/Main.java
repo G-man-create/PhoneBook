@@ -2,6 +2,7 @@ package program.phonebook;
 
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
+import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.image.Image;
 import javafx.stage.Stage;
@@ -19,7 +20,7 @@ public class Main extends Application {
         logger.info("Запуск приложения Телефонный справочник");
         try {
             FXMLLoader loader = new FXMLLoader(getClass().getResource("menu.fxml"));
-            Scene scene = new Scene(loader.load());
+            Scene scene = new Scene((Parent) loader.load());
             Menu menuController = loader.getController();
             menuController.setStage(stage);
             stage.getIcons().add(new Image(getClass().getResourceAsStream("telephone.png")));
