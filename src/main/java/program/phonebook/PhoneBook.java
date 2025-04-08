@@ -353,6 +353,9 @@ public class PhoneBook {
             case "Рабочий":
                 formatValid = cleanNumber.matches("^\\d{6,11}$");
                 break;
+            case "Факс":
+                formatValid = cleanNumber.matches("^\\d{6,11}$");
+                break;
             default:
                 formatValid = cleanNumber.matches("^\\d{6,11}$");
         }

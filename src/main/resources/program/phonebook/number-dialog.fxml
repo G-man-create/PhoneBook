@@ -8,13 +8,20 @@
         <GridPane hgap="10" vgap="10">
             <Label text="Номер:" GridPane.rowIndex="0" GridPane.columnIndex="0"/>
             <TextField fx:id="numberField" GridPane.rowIndex="0" GridPane.columnIndex="1"/>
-            <Label text="Тип:" GridPane.rowIndex="1" GridPane.columnIndex="0"/>
-            <ComboBox fx:id="typeComboBox" GridPane.rowIndex="1" GridPane.columnIndex="1">
+            <Label fx:id="validationHint"
+                   text="Мобильный: начинается с 8 или 9, 11 цифр. Домашний: 6 или 7 цифр. Рабочий/Факс/Другой: от 6 до 11 цифр."
+                   wrapText="true"
+                   style="-fx-font-size: 11px; -fx-text-fill: gray;"
+                   GridPane.rowIndex="1" GridPane.columnIndex="1" GridPane.columnSpan="2"/>
+
+            <Label text="Тип:" GridPane.rowIndex="2" GridPane.columnIndex="0"/>
+            <ComboBox fx:id="typeComboBox" GridPane.rowIndex="2" GridPane.columnIndex="1">
                 <items>
                     <FXCollections fx:factory="observableArrayList">
                         <String fx:value="Мобильный"/>
                         <String fx:value="Домашний"/>
                         <String fx:value="Рабочий"/>
+                        <String fx:value="Факс"/>
                         <String fx:value="Другой"/>
                     </FXCollections>
                 </items>

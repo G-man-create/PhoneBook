@@ -9,9 +9,9 @@ import org.apache.logging.log4j.Logger;
  * <p>
  * Содержит информацию о имени контакта и списке его телефонных номеров.
  * Реализует интерфейс Serializable для возможности сериализации.
+ * </p>
  * @see PhoneNumber
  * @see Serializable
- * </p>
  */
 
 public class Contact implements Serializable {

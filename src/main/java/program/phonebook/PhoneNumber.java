@@ -9,7 +9,7 @@ import org.apache.logging.log4j.Logger;
  * @see Contact
  * @see Serializable
  */
-class PhoneNumber implements Serializable {
+public class PhoneNumber implements Serializable {
     /**
      * Логгер для класса PhoneNumber.
      * <p>
