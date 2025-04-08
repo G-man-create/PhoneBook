@@ -1,0 +1,9 @@
+2025-04-08 18:50:02.083 [JavaFX Application Thread] INFO  program.phonebook.Main - Запуск приложения Телефонный справочник
+2025-04-08 18:50:03.602 [JavaFX Application Thread] INFO  program.phonebook.Menu - Открытие телефонной книги
+2025-04-08 18:50:03.604 [JavaFX Application Thread] DEBUG program.phonebook.Menu - Загрузка FXML: telephone.fxml
+2025-04-08 18:50:03.653 [JavaFX Application Thread] INFO  program.phonebook.PhoneBook - Инициализация данных о контактах
+2025-04-08 18:50:03.655 [JavaFX Application Thread] INFO  program.phonebook.PhoneBook - Инициализация успешно завершена
+2025-04-08 18:50:03.656 [JavaFX Application Thread] DEBUG program.phonebook.PhoneBook - Установка контроллера Menu: program.phonebook.Menu@2bf3108e
+2025-04-08 18:50:03.656 [JavaFX Application Thread] DEBUG program.phonebook.Menu - Установлен контроллер для телефонной книги
+2025-04-08 18:50:03.656 [JavaFX Application Thread] DEBUG program.phonebook.Menu - Запуск анимации перехода между сценами
+2025-04-08 18:50:04.770 [JavaFX Application Thread] DEBUG program.phonebook.Menu - Анимация перехода завершена

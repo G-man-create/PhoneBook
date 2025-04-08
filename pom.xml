@@ -1,16 +1,8 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0"
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+
   <modelVersion>4.0.0</modelVersion>
-
-  <pluginRepositories>
-    <pluginRepository>
-      <id>central</id>
-      <url>https://repo.maven.apache.org/maven2</url>
-    </pluginRepository>
-  </pluginRepositories>
-
 
   <groupId>program</groupId>
   <artifactId>PhoneBook</artifactId>
@@ -76,14 +68,17 @@
               <transformers>
                 <transformer implementation="org.apache.maven.plugins.shade.resource.ManifestResourceTransformer">
                   <mainClass>program.phonebook.Launcher</mainClass>
+                  <manifestEntries>
+                    <Log4j-Configuration-File>program/telephone/log4j2.xml</Log4j-Configuration-File>
+                  </manifestEntries>
                 </transformer>
               </transformers>
             </configuration>
           </execution>
         </executions>
       </plugin>
-
     </plugins>
+
     <resources>
       <resource>
         <directory>src/main/resources</directory>
@@ -91,6 +86,7 @@
           <include>**/*.fxml</include>
           <include>**/*.xml</include>
           <include>**/*.png</include>
+          <include>**/log4j2.xml</include>
         </includes>
       </resource>
     </resources>
