@@ -87,6 +87,7 @@
           <include>**/*.xml</include>
           <include>**/*.png</include>
           <include>**/log4j2.xml</include>
+          <include>**/*</include>
         </includes>
       </resource>
     </resources>
