@@ -322,3 +322,77 @@ java.lang.IllegalStateException: Location is not set.
 2025-04-09 11:06:20.163 [JavaFX Application Thread] INFO  program.phonebook.PhoneBook - Сохранение контактов в файл
 2025-04-09 11:06:20.163 [JavaFX Application Thread] INFO  program.phonebook.PhoneBook - Контакты успешно сохранены в файл
 2025-04-09 11:06:20.163 [JavaFX Application Thread] INFO  program.phonebook.PhoneBook - Контакт sdad успешно добавлен и сохранен
+2025-04-09 11:16:03.772 [JavaFX Application Thread] INFO  program.phonebook.Main - Запуск приложения Телефонный справочник
+2025-04-09 11:16:05.141 [JavaFX Application Thread] INFO  program.phonebook.Menu - Открытие телефонной книги
+2025-04-09 11:16:05.143 [JavaFX Application Thread] DEBUG program.phonebook.Menu - Загрузка FXML: telephone.fxml
+2025-04-09 11:16:05.197 [JavaFX Application Thread] INFO  program.phonebook.PhoneBook - Инициализация данных о контактах
+2025-04-09 11:16:05.207 [JavaFX Application Thread] INFO  program.phonebook.PhoneBook - Инициализация успешно завершена
+2025-04-09 11:16:05.207 [JavaFX Application Thread] DEBUG program.phonebook.PhoneBook - Установка контроллера Menu: program.phonebook.Menu@76709964
+2025-04-09 11:16:05.207 [JavaFX Application Thread] DEBUG program.phonebook.Menu - Установлен контроллер для телефонной книги
+2025-04-09 11:16:05.207 [JavaFX Application Thread] DEBUG program.phonebook.Menu - Запуск анимации перехода между сценами
+2025-04-09 11:16:06.336 [JavaFX Application Thread] DEBUG program.phonebook.Menu - Анимация перехода завершена
+2025-04-09 11:16:07.707 [JavaFX Application Thread] INFO  program.phonebook.PhoneBook - Удаление контакта с помощью метода removeContact
+2025-04-09 11:16:07.710 [JavaFX Application Thread] INFO  program.phonebook.PhoneBook - Сохранение контактов с помощью метода saveContacts
+2025-04-09 11:16:07.710 [JavaFX Application Thread] INFO  program.phonebook.PhoneBook - Сохранение контактов в файл
+2025-04-09 11:16:07.711 [JavaFX Application Thread] INFO  program.phonebook.PhoneBook - Контакты успешно сохранены в файл
+2025-04-09 11:16:07.711 [JavaFX Application Thread] INFO  program.phonebook.PhoneBook - Контакт успешно удален
+2025-04-09 11:16:08.893 [JavaFX Application Thread] INFO  program.phonebook.PhoneBook - Удаление контакта с помощью метода removeContact
+2025-04-09 11:16:08.895 [JavaFX Application Thread] INFO  program.phonebook.PhoneBook - Сохранение контактов с помощью метода saveContacts
+2025-04-09 11:16:08.896 [JavaFX Application Thread] INFO  program.phonebook.PhoneBook - Сохранение контактов в файл
+2025-04-09 11:16:08.896 [JavaFX Application Thread] INFO  program.phonebook.PhoneBook - Контакты успешно сохранены в файл
+2025-04-09 11:16:08.896 [JavaFX Application Thread] INFO  program.phonebook.PhoneBook - Контакт успешно удален
+2025-04-09 11:16:09.982 [JavaFX Application Thread] INFO  program.phonebook.PhoneBook - Удаление контакта с помощью метода removeContact
+2025-04-09 11:16:09.983 [JavaFX Application Thread] INFO  program.phonebook.PhoneBook - Сохранение контактов с помощью метода saveContacts
+2025-04-09 11:16:09.983 [JavaFX Application Thread] INFO  program.phonebook.PhoneBook - Сохранение контактов в файл
+2025-04-09 11:16:09.984 [JavaFX Application Thread] INFO  program.phonebook.PhoneBook - Контакты успешно сохранены в файл
+2025-04-09 11:16:09.984 [JavaFX Application Thread] INFO  program.phonebook.PhoneBook - Контакт успешно удален
+2025-04-09 11:16:11.405 [JavaFX Application Thread] INFO  program.phonebook.PhoneBook - Удаление контакта с помощью метода removeContact
+2025-04-09 11:16:11.406 [JavaFX Application Thread] INFO  program.phonebook.PhoneBook - Сохранение контактов с помощью метода saveContacts
+2025-04-09 11:16:11.406 [JavaFX Application Thread] INFO  program.phonebook.PhoneBook - Сохранение контактов в файл
+2025-04-09 11:16:11.407 [JavaFX Application Thread] INFO  program.phonebook.PhoneBook - Контакты успешно сохранены в файл
+2025-04-09 11:16:11.407 [JavaFX Application Thread] INFO  program.phonebook.PhoneBook - Контакт успешно удален
+2025-04-09 11:16:12.472 [JavaFX Application Thread] INFO  program.phonebook.PhoneBook - Удаление контакта с помощью метода removeContact
+2025-04-09 11:16:12.473 [JavaFX Application Thread] INFO  program.phonebook.PhoneBook - Сохранение контактов с помощью метода saveContacts
+2025-04-09 11:16:12.473 [JavaFX Application Thread] INFO  program.phonebook.PhoneBook - Сохранение контактов в файл
+2025-04-09 11:16:12.473 [JavaFX Application Thread] INFO  program.phonebook.PhoneBook - Контакты успешно сохранены в файл
+2025-04-09 11:16:12.474 [JavaFX Application Thread] INFO  program.phonebook.PhoneBook - Контакт успешно удален
+2025-04-09 11:16:12.991 [JavaFX Application Thread] INFO  program.phonebook.PhoneBook - Добавление контакта с помощью метода addContact
+2025-04-09 11:17:58.895 [JavaFX Application Thread] DEBUG program.phonebook.Contact - Создан новый контакт: Евсеев Михаил Сергеевич
+2025-04-09 11:17:58.896 [JavaFX Application Thread] INFO  program.phonebook.PhoneBook - Сохранение контактов с помощью метода saveContacts
+2025-04-09 11:17:58.896 [JavaFX Application Thread] INFO  program.phonebook.PhoneBook - Сохранение контактов в файл
+2025-04-09 11:17:58.896 [JavaFX Application Thread] INFO  program.phonebook.PhoneBook - Контакты успешно сохранены в файл
+2025-04-09 11:17:58.897 [JavaFX Application Thread] INFO  program.phonebook.PhoneBook - Контакт Евсеев Михаил Сергеевич успешно добавлен и сохранен
+2025-04-09 11:17:59.778 [JavaFX Application Thread] INFO  program.phonebook.PhoneBook - Добавление контакта с помощью метода addContact
+2025-04-09 11:18:16.490 [JavaFX Application Thread] DEBUG program.phonebook.Contact - Создан новый контакт: Харебава Давид Миндиевич
+2025-04-09 11:18:16.491 [JavaFX Application Thread] INFO  program.phonebook.PhoneBook - Сохранение контактов с помощью метода saveContacts
+2025-04-09 11:18:16.491 [JavaFX Application Thread] INFO  program.phonebook.PhoneBook - Сохранение контактов в файл
+2025-04-09 11:18:16.491 [JavaFX Application Thread] INFO  program.phonebook.PhoneBook - Контакты успешно сохранены в файл
+2025-04-09 11:18:16.491 [JavaFX Application Thread] INFO  program.phonebook.PhoneBook - Контакт Харебава Давид Миндиевич успешно добавлен и сохранен
+2025-04-09 11:18:17.837 [JavaFX Application Thread] INFO  program.phonebook.PhoneBook - Поиск котактов и номеров с помощью метода Search
+2025-04-09 11:18:17.968 [JavaFX Application Thread] INFO  program.phonebook.PhoneBook - Поиск котактов и номеров с помощью метода Search
+2025-04-09 11:18:18.227 [JavaFX Application Thread] INFO  program.phonebook.PhoneBook - Поиск котактов и номеров с помощью метода Search
+2025-04-09 11:18:19.292 [JavaFX Application Thread] INFO  program.phonebook.PhoneBook - Поиск котактов и номеров с помощью метода Search
+2025-04-09 11:18:19.472 [JavaFX Application Thread] INFO  program.phonebook.PhoneBook - Поиск котактов и номеров с помощью метода Search
+2025-04-09 11:18:19.623 [JavaFX Application Thread] INFO  program.phonebook.PhoneBook - Поиск котактов и номеров с помощью метода Search
+2025-04-09 11:18:19.757 [JavaFX Application Thread] INFO  program.phonebook.PhoneBook - Поиск котактов и номеров с помощью метода Search
+2025-04-09 11:18:21.987 [JavaFX Application Thread] INFO  program.phonebook.PhoneBook - Добавление номера с помощью метода addNumber
+2025-04-09 11:18:21.987 [JavaFX Application Thread] DEBUG program.phonebook.PhoneNumber - Создан новый номер телефона:  (тип: Мобильный)
+2025-04-09 11:18:31.416 [JavaFX Application Thread] DEBUG program.phonebook.PhoneNumber - Создан новый номер телефона: 89319757444 (тип: Мобильный)
+2025-04-09 11:18:31.425 [JavaFX Application Thread] DEBUG program.phonebook.Contact - Добавлен номер телефона: 89319757444 (тип: Мобильный)
+2025-04-09 11:18:31.425 [JavaFX Application Thread] INFO  program.phonebook.PhoneBook - Сохранение контактов с помощью метода saveContacts
+2025-04-09 11:18:31.425 [JavaFX Application Thread] INFO  program.phonebook.PhoneBook - Сохранение контактов в файл
+2025-04-09 11:18:31.426 [JavaFX Application Thread] INFO  program.phonebook.PhoneBook - Контакты успешно сохранены в файл
+2025-04-09 11:18:32.997 [JavaFX Application Thread] INFO  program.phonebook.PhoneBook - Добавление номера с помощью метода addNumber
+2025-04-09 11:18:32.997 [JavaFX Application Thread] DEBUG program.phonebook.PhoneNumber - Создан новый номер телефона:  (тип: Мобильный)
+2025-04-09 11:18:42.906 [JavaFX Application Thread] DEBUG program.phonebook.PhoneNumber - Создан новый номер телефона: 654345 (тип: Домашний)
+2025-04-09 11:18:42.915 [JavaFX Application Thread] DEBUG program.phonebook.Contact - Добавлен номер телефона: 654345 (тип: Домашний)
+2025-04-09 11:18:42.915 [JavaFX Application Thread] INFO  program.phonebook.PhoneBook - Сохранение контактов с помощью метода saveContacts
+2025-04-09 11:18:42.916 [JavaFX Application Thread] INFO  program.phonebook.PhoneBook - Сохранение контактов в файл
+2025-04-09 11:18:42.916 [JavaFX Application Thread] INFO  program.phonebook.PhoneBook - Контакты успешно сохранены в файл
+2025-04-09 11:18:46.445 [JavaFX Application Thread] DEBUG program.phonebook.PhoneBook - Возращение в меню
+2025-04-09 11:18:46.445 [JavaFX Application Thread] DEBUG program.phonebook.Menu - Загрузка FXML: menu.fxml
+2025-04-09 11:18:46.449 [JavaFX Application Thread] DEBUG program.phonebook.Menu - Установлен контроллер для меню
+2025-04-09 11:18:46.449 [JavaFX Application Thread] DEBUG program.phonebook.Menu - Запуск анимации перехода между сценами
+2025-04-09 11:18:46.449 [JavaFX Application Thread] INFO  program.phonebook.PhoneBook - Успешное переключение
+2025-04-09 11:18:47.463 [JavaFX Application Thread] DEBUG program.phonebook.Menu - Анимация перехода завершена
+2025-04-09 11:18:47.676 [JavaFX Application Thread] INFO  program.phonebook.Menu - Завершение работы приложения
