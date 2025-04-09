@@ -252,3 +252,16 @@ java.lang.IllegalStateException: Location is not set.
 2025-04-09 10:39:02.342 [JavaFX Application Thread] DEBUG program.phonebook.Menu - Анимация перехода завершена
 2025-04-09 10:39:03.101 [JavaFX Application Thread] INFO  program.phonebook.PhoneBook - Добавление контакта с помощью метода addContact
 2025-04-09 10:39:06.016 [JavaFX Application Thread] WARN  program.phonebook.PhoneBook - Попытка добавить уже существующий контакт: aaaa
+2025-04-09 10:52:51.770 [JavaFX Application Thread] INFO  program.phonebook.Main - Запуск приложения Телефонный справочник
+2025-04-09 10:52:53.024 [JavaFX Application Thread] INFO  program.phonebook.Menu - Открытие телефонной книги
+2025-04-09 10:52:53.027 [JavaFX Application Thread] DEBUG program.phonebook.Menu - Загрузка FXML: telephone.fxml
+2025-04-09 10:52:53.091 [JavaFX Application Thread] INFO  program.phonebook.PhoneBook - Инициализация данных о контактах
+2025-04-09 10:52:53.094 [JavaFX Application Thread] INFO  program.phonebook.PhoneBook - Инициализация успешно завершена
+2025-04-09 10:52:53.094 [JavaFX Application Thread] DEBUG program.phonebook.PhoneBook - Установка контроллера Menu: program.phonebook.Menu@9cd1626
+2025-04-09 10:52:53.094 [JavaFX Application Thread] DEBUG program.phonebook.Menu - Установлен контроллер для телефонной книги
+2025-04-09 10:52:53.094 [JavaFX Application Thread] DEBUG program.phonebook.Menu - Запуск анимации перехода между сценами
+2025-04-09 10:52:54.209 [JavaFX Application Thread] DEBUG program.phonebook.Menu - Анимация перехода завершена
+2025-04-09 10:52:54.696 [JavaFX Application Thread] INFO  program.phonebook.PhoneBook - Добавление контакта с помощью метода addContact
+2025-04-09 10:52:59.058 [JavaFX Application Thread] WARN  program.phonebook.PhoneBook - Попытка добавить уже существующий контакт: aaaa
+2025-04-09 10:52:59.058 [JavaFX Application Thread] INFO  program.phonebook.PhoneBook - Загрузка предупреждения
+2025-04-09 10:53:02.369 [JavaFX Application Thread] DEBUG program.phonebook.PhoneBook - Предупреждение отображается успешно

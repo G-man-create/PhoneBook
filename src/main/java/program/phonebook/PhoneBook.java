@@ -446,7 +446,6 @@ public class PhoneBook {
                 logger.info("Применена сортировка по возрастанию (А-Я)");
             }
 
-            // Очищаем и добавляем отсортированные элементы
             contactData.getItems().setAll(sorted);
         } catch (Exception e) {
             logger.error("Ошибка при сортировке контактов", e);
@@ -580,11 +579,18 @@ public class PhoneBook {
      * @param content основное содержание сообщения
      */
     private void showAlert(String title, String header, String content) {
-        Alert alert = new Alert(Alert.AlertType.WARNING);
-        alert.setTitle(title);
-        alert.setHeaderText(header);
-        alert.setContentText(content);
-        alert.showAndWait();
+        logger.info("Загрузка предупреждения");
+        try {
+            Alert alert = new Alert(Alert.AlertType.WARNING);
+            alert.setTitle(title);
+            alert.setHeaderText(header);
+            alert.setContentText(content);
+            alert.showAndWait();
+
+            logger.debug("Предупреждение отображается успешно");
+        } catch (Exception e) {
+            logger.error("Не удалось показать предупреждение", e);
+        }
     }
     /**
      * Ограничивает ввод в текстовое поле только цифрами.
