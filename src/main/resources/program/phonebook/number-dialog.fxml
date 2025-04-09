@@ -1,31 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?import javafx.collections.FXCollections?>
-<?import javafx.scene.control.*?>
-<?import javafx.scene.layout.*?>
+
 <?import java.lang.String?>
-<DialogPane xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1">
+<?import javafx.collections.FXCollections?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.DialogPane?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+
+<DialogPane prefHeight="144.0" prefWidth="628.0" stylesheets="@style1.css" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1">
     <content>
         <GridPane hgap="10" vgap="10">
-            <Label text="Номер:" GridPane.rowIndex="0" GridPane.columnIndex="0"/>
-            <TextField fx:id="numberField" GridPane.rowIndex="0" GridPane.columnIndex="1"/>
-            <Label fx:id="validationHint"
-                   text="Мобильный: начинается с 8 или 9, 11 цифр. Домашний: 6 или 7 цифр. Рабочий/Факс/Другой: от 6 до 11 цифр."
-                   wrapText="true"
-                   style="-fx-font-size: 11px; -fx-text-fill: gray;"
-                   GridPane.rowIndex="1" GridPane.columnIndex="1" GridPane.columnSpan="2"/>
+            <Label stylesheets="@style1.css" text="Номер:" GridPane.columnIndex="0" GridPane.rowIndex="0" />
+            <TextField fx:id="numberField" styleClass="text-field" stylesheets="@style1.css" GridPane.columnIndex="1" GridPane.rowIndex="0" />
+            <Label fx:id="validationHint" style="-fx-font-size: 11px; -fx-text-fill: gray;" stylesheets="@style1.css" text="Мобильный: начинается с 8 или 9, 11 цифр. Домашний: 6 или 7 цифр. Рабочий/Факс/Другой: от 6 до 11 цифр." wrapText="true" GridPane.columnIndex="1" GridPane.columnSpan="2" GridPane.rowIndex="1" />
 
-            <Label text="Тип:" GridPane.rowIndex="2" GridPane.columnIndex="0"/>
-            <ComboBox fx:id="typeComboBox" GridPane.rowIndex="2" GridPane.columnIndex="1">
+            <Label stylesheets="@style1.css" text="Тип:" GridPane.columnIndex="0" GridPane.rowIndex="2" />
+            <ComboBox fx:id="typeComboBox" styleClass="combo-box" stylesheets="@style1.css" GridPane.columnIndex="1" GridPane.rowIndex="2">
                 <items>
                     <FXCollections fx:factory="observableArrayList">
-                        <String fx:value="Мобильный"/>
-                        <String fx:value="Домашний"/>
-                        <String fx:value="Рабочий"/>
-                        <String fx:value="Факс"/>
-                        <String fx:value="Другой"/>
+                        <String fx:value="Мобильный" />
+                        <String fx:value="Домашний" />
+                        <String fx:value="Рабочий" />
+                        <String fx:value="Факс" />
+                        <String fx:value="Другой" />
                     </FXCollections>
                 </items>
             </ComboBox>
+         <columnConstraints>
+            <ColumnConstraints />
+            <ColumnConstraints />
+            <ColumnConstraints />
+         </columnConstraints>
+         <rowConstraints>
+            <RowConstraints />
+            <RowConstraints />
+            <RowConstraints />
+         </rowConstraints>
         </GridPane>
     </content>
 </DialogPane>
